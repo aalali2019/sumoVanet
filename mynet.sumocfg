@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="mynet.net.xml"/>
+		<additional-files value="mynet.add.xml"/>
+        <route-files value="mynetpeds.rou.xml, mynetcars.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+</configuration>

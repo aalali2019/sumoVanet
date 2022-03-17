@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-02-28 22:50:25 by Eclipse SUMO netedit Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="E:\PedestrianSystem\PedestrianSystemSumo\mynet.net.xml"/>
+        <plain-output-prefix value=""/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="E:\PedestrianSystem\PedestrianSystemSumo\mynet.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<parkingArea id="ParkAreaA" lane="-E0_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
+<parkingArea id="ParkAreaAA" lane="E01_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
+<parkingArea id="ParkAreaB" lane="-E0.57_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
+<parkingArea id="ParkAreaC" lane="-E0.51_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
+</additional>
