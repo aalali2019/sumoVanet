@@ -6,6 +6,17 @@
     </input>
     <time>
         <begin value="0"/>
-        <end value="10000"/>
+        <end value="1000"/>
     </time>
+	<output>
+		<fcd-output value="output.xml"/>
+		<fcd-output.geo value="true"/>
+		<collision-output value="collision.xml"/>
+		<person-summary-output value="pedsOutput.xml"/>
+		<gui-settings-file value="guisettings.xml"/>
+		<battery-output value="Battery.out.xml"/>
+        <battery-output.precision value="4"/>
+        <device.battery.probability value="1"/>
+        <summary-output value="summary_100.xml"/>
+	</output>
 </configuration>

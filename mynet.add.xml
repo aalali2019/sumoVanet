@@ -29,8 +29,8 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-<parkingArea id="ParkAreaA" lane="-E0_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
-<parkingArea id="ParkAreaAA" lane="E01_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
-<parkingArea id="ParkAreaB" lane="-E0.57_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
-<parkingArea id="ParkAreaC" lane="-E0.51_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>
+<!--<parkingArea id="ParkAreaA" lane="-E0_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>-->
+<!--<parkingArea id="ParkAreaAA" lane="E01_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>-->
+<!--<parkingArea id="ParkAreaC" lane="-E0.57_1" roadsideCapacity="6" angle="0" length="5" onRoad="true"/>-->
+<parkingArea id="ParkAreaB" lane="-E0.51_1" roadsideCapacity="3" angle="0" length="6" onRoad="true" friendlyPos="true"/>
 </additional>
