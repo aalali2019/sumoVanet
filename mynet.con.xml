@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-22 18:03:31 by Eclipse SUMO netedit Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="E:\PedestrianSystem\PedestrianSystemSumo\mynet.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="E:\PedestrianSystem\PedestrianSystemSumo\mynet.net.xml"/>
+        <plain-output-prefix value="E:\PedestrianSystem\PedestrianSystemSumo\mynet"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<connections version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="-E0" to="-E0.57" fromLane="1" toLane="1"/>
+    <connection from="-E0" to="-E0.57" fromLane="2" toLane="2"/>
+
+    <connection from="-E0.51" to="-E0.51.46" fromLane="1" toLane="1"/>
+    <connection from="-E0.51" to="-E0.51.46" fromLane="2" toLane="2"/>
+
+    <connection from="-E0.51.46" to="E0" fromLane="2" toLane="2"/>
+
+    <connection from="-E0.57" to="-E0.51" fromLane="1" toLane="1"/>
+    <connection from="-E0.57" to="-E0.51" fromLane="2" toLane="2"/>
+
+    <connection from="E0" to="E0.51" fromLane="1" toLane="1"/>
+    <connection from="E0" to="E0.51" fromLane="2" toLane="2"/>
+
+    <connection from="E0.51" to="E00" fromLane="1" toLane="1"/>
+    <connection from="E0.51" to="E00" fromLane="2" toLane="2"/>
+
+    <connection from="E00" to="E01" fromLane="1" toLane="1"/>
+    <connection from="E00" to="E01" fromLane="2" toLane="2"/>
+
+    <connection from="E01" to="-E0" fromLane="2" toLane="2"/>
+
+    <crossing node="J4" edges="E0.51 -E0.51" priority="0" width="4.00"/>
+</connections>
